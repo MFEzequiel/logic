@@ -12,6 +12,7 @@ def questios():
     pri = ri * -1
     prb = rb * 0
     pf = prc + pri + prb
+    
     question_correct_label_result.configure(text=f'Puntos de respuesta correcta: {prc}')
     question_incorrect_label_result.configure(text=f'Puntos de respuesta incorrecta: {pri}')
     question_blank_label_result.configure(text=f'Puntos de respuesta en blank: {prb}')

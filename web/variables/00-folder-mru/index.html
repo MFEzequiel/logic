@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Hace compatible la página con versiones antiguas de Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Hace que la página se vea bien en móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcular distancia (MRU)</title>
+  <!-- Enlaza el archivo de estilos CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <section class="main-section">
+      <!-- Título principal de la página -->
+      <h1 class="title">Caluclar distancia</h1>
+      <h2 class="sub">Ejercicio 1</h2>
+
+      <!-- Descripción del problema -->
+      <p>
+        Se desea calcular la distancia recorrida (m) por un móvil que tiene velocidad constante (m/s) durante un tiempo t (s),
+        considerar que es un MRU (Movimiento Rectilíneo Uniforme).
+      </p>
+      
+      <!-- Formulario para ingresar velocidad y tiempo -->
+      <form class="form">
+        <!-- Entrada de velocidad -->
+        <label for="vel" class="form-label">
+          Velocidad
+          <input type="number" class="form-input" name="vel" placeholder="0">
+        </label>
+    
+        <!-- Entrada de tiempo -->
+        <label for="tim" class="form-label">
+          Tiempo
+          <input type="number" class="form-input" name="tim" placeholder="0">
+        </label>
+    
+        <!-- Resultado se mostrará aquí -->
+        <label class="form-label evaluator">
+          Distncia recorrida
+        </label>
+
+        <!-- Botón para calcular -->
+        <button class="form-button">Evaluar</button>
+      </form>
+
+    </section>
+  </main>
+
+  <!-- Enlaza el archivo JavaScript -->
+  <script src="main.js" type="module"></script>
+</body>
+</html>

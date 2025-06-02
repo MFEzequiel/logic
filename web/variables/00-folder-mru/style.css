@@ -1,0 +1,58 @@
+/* Estilo para el título */
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+/* Estilos para el formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1.5rem;
+  min-width: 120px;
+  align-items: center;
+  color: #f3f4f6;
+  border-radius: 0.75rem;
+  background-color: #111827;
+  padding: 2rem;
+}
+
+/* Estilo para las etiquetas del formulario */
+.form-label {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+/* Estilo para inputs */
+.form-label, .form-input {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+/* Estilo cuando se hace clic dentro del input */
+.form-input:focus {
+  border-color: #a78bfa;
+}
+
+/* Botón del formulario */
+.form-button {
+  display: block;
+  width: 100%;
+  background-color: rgba(167, 139, 250, 1);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+}

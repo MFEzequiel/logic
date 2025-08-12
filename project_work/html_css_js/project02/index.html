@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse hover</title>
+  <style>
+    /* Referencia a nuestro div */
+    .hoverZone {
+      width: 300px;
+      height: 100px;
+      background-color: #232323;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 50px auto;
+      border: 2px solid #06f;
+      cursor: pointer;
+    }
+
+    /* Referencia a nuestro párrafo  */
+    .message {
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <!-- Crear la etiqueta <div> con el texto "pasa el mouse por aquí"-->
+
+    <!-- Crear una etiqueta de párrafo el cual contendra el mensaje -->
+
+    </main>
+  <script>
+    const hoverZone = document.querySelector('.hoverZone')
+    const message = document.querySelector('.message')
+    
+    hoverZone.addEventListener('mouseenter', () => {
+      message.textContent = '¡Estas pasando el mouse!'
+    })
+    
+    hoverZone.addEventListener('mouseleave', () => {
+      message.textContent = ''
+    })
+
+  </script>
+</body>
+</html>

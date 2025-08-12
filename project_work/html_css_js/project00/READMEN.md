@@ -1,0 +1,1 @@
+Organizar el contenido CSS y JavaScript en archivos separados para mejorar la estructura y mantenibilidad del proyecto.

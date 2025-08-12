@@ -1,0 +1,1 @@
+Organizar el contenido CSS y JavaScript en archivos separados, crear un botón que, al hacer click, cambie el color del fondo de la página.

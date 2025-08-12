@@ -1,0 +1,1 @@
+Organizar el contenido CSS y JavaScript en archivos separados. Mostrar un mensaje en un <div> cuando el usuario pasa el mouse por encima de un elemento.

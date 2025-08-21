@@ -1,0 +1,10 @@
+# folder and files
+.vscode
+dist
+build
+.db
+.spec
+# image
+.png
+.gif
+.jpg
